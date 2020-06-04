@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Cython code for using function in Clang.
-These functions can be called by Python.
-Last update: 2018/11/18
-"""
-
 # define function from Clang header file
 cdef extern from "mimori.h":
     ctypedef struct Suzuko:

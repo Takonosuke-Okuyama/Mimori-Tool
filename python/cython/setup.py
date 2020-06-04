@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Setup python file for Cython.
-Last update: 2018/11/18
-"""
-
 from distutils.core import setup
 from distutils.extension import Extension
 from Cython.Distutils import build_ext
