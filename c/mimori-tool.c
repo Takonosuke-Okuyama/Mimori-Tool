@@ -57,10 +57,7 @@ int main(int argc, char const *argv[])
 	if (scanf("%d",&num) != 1){
 		printf("入力は 0 ~ 1000 の整数\n");
 		return 1;
-	}else if(num < 0){
-		printf("入力は 0 ~ 1000の整数\n");
-		return 1;
-	}else if(1000 < num){
+	}else if(num < 0 || 1000 < num){
 		printf("入力は 0 ~ 1000の整数\n");
 		return 1;
 	}
@@ -68,7 +65,7 @@ int main(int argc, char const *argv[])
 	size += (num2digits(num) * 2 * 3); //+ "三"
 	if(num%3 != 0) size += 3; //端数分
 	size += (num/3) * 3; // + "森"
-	size += 12; // + "すずこ""
+	size += 3 * 4; // + "すずこ""
 	str = malloc(size);
 	data = str;
 
