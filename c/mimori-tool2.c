@@ -127,9 +127,11 @@ int makeKansu(char *arg_str, int arg_num){
 			byte += 3;
 			str += 3;
 		}
-		strcpy(str, kansuList[one]);
-		byte += 3;
-		str += 3;
+		if(one){
+			strcpy(str, kansuList[one]);
+			byte += 3;
+			str += 3;
+		}
 	}
 
 	return byte;
