@@ -64,7 +64,7 @@ char *makeMimoriSuzuko(char *arg_str, int arg_num){
 	}
 	str = str + byte;
 
-	num = (num % 46) + 9;
+	num = (num + 9) % 46;
 	byte = makeSuzuko(str, num);
 	if(byte < 0){
 		printf("すずこ製造に失敗\n");
