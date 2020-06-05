@@ -27,4 +27,4 @@ cフォルダの`mimori-tool.c`か`mimori-tool2.c`をgccでコンパイルして
 出力結果は同じですが、実装方法が違います。
 
 ## Python
-Cython環境で使えます
+ライブラリをimportで使えます
