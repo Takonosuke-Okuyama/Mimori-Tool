@@ -20,6 +20,12 @@
 四林林せぜこ
 ```
 
+## LINEBot
+LINEBotになりました。  
+ID: `@664dxnan`  
+QR:  
+<img src="https://github.com/Masaki-Okuyama/Mimori-Tool/blob/images/LINEQR.png" alt="drawing" width="200"/>  
+
 ## C
 ### コンパイル
 cフォルダの`mimori-tool.c`か`mimori-tool2.c`をgccでコンパイルしてください.
