@@ -27,4 +27,4 @@ cフォルダの`mimori-tool.c`か`mimori-tool2.c`をgccでコンパイルして
 出力結果は同じですが、実装方法が違います。
 
 ## Python
-ライブラリをimportで使えます
+`MimoriTool.cpython-37m-darwin.so`は三森すずこ生成ライブラリです。`main.py`で使用しています。
