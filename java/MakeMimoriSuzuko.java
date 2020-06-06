@@ -3,9 +3,9 @@ import num2_.num2mori;
 import num2_.num2suzuko;
 
 public class MakeMimoriSuzuko{
-    String kansu;
-    String mori;
-    String suzuko;
+    private String kansu;
+    private String mori;
+    private String suzuko;
 
     num2kansu num2kansu = new num2kansu();
     num2mori num2mori = new num2mori();
