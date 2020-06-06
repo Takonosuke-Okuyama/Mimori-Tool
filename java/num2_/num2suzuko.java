@@ -10,6 +10,7 @@ public class num2suzuko extends num2_{
 
     public String num2(int argnum){
         num = argnum%46 + 9;
+        if(num>46){num = num-46;}
         hiragana = getTable().getHiragana(num);
         suzuko = hiragana + hiragana + "゛" + "こ";
         return suzuko;
