@@ -11,7 +11,7 @@ public class num2kansu extends num2_{
     }
     
     public String num2(int num){    
-        if(num==0)return kansu;
+        if(num==0)return getTable().getKansu(num);
     
         digit1000 = num/1000; 
         num = num%1000;
