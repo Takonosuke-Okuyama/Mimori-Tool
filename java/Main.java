@@ -17,7 +17,7 @@ public class Main{
         int num = -1;
 
         while(true){
-            System.out.print("何森？ > ");
+            System.out.print("何森？: ");
             input = scanner.nextLine();
             
             try{
