@@ -1,7 +1,9 @@
 package num2_;
+import java.text.Normalizer;
 public class num2suzuko extends num2_{
     private int num;
     private String hiragana;
+    private String hiragana_daku;
     private String suzuko;
     
     public num2suzuko(){
@@ -9,10 +11,13 @@ public class num2suzuko extends num2_{
     }
 
     public String num2(int argnum){
-        num = argnum%46 + 9;
-        if(num>46){num = num-46;}
+        num = (argnum+9)%46 ;
         hiragana = getTable().getHiragana(num);
-        suzuko = hiragana + hiragana + "゛" + "こ";
+        hiragana_daku = Normalizer.normalize(hiragana + "\u3099", Normalizer.Form.NFC);  // Unicode正規化: NFC
+
+        suzuko = hiragana + hiragana_daku + "こ" ;
+
         return suzuko;
     }
+
 }
