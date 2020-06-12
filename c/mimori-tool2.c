@@ -180,8 +180,6 @@ int makeSuzuko(char *arg_str, int arg_num){
 	char *str = arg_str;
 	int byte = 0;
 
-	if(arg_num == 0) return -1;
-
 	strcpy(str,hiraganaList[arg_num]);
 	byte += 3;
 	str += 3;
