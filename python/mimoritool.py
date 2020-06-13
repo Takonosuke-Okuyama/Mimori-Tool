@@ -31,7 +31,7 @@ def makeKansu(arg_num):
     else:
     	kansu += kansuList[one]
 
-    return kansu;
+    return kansu
 
 
 def makeMori(arg_num):
@@ -67,8 +67,7 @@ def makeMimoriSuzuko(arg_num):
 
 
 if __name__ == '__main__':
-    print('何森?')
-    num = input()
+    num = input('何森?: ')
     if num.isdecimal():
         mimori = makeMimoriSuzuko(int(num))
         print(mimori)

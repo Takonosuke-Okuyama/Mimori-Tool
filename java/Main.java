@@ -17,18 +17,18 @@ public class Main{
         int num = -1;
 
         while(true){
-            System.out.print("何森？: ");
+            System.out.print("何森?: ");
             input = scanner.nextLine();
-            
+
             try{
                 num = Integer.parseInt(input);
             }catch(NumberFormatException e){
-                System.out.println("入力は 0~1000 の整数\n"); 
+                System.out.println("入力は 0~1000 の整数\n");
                 continue ;
             }
 
             if(num < 0 || 1000 < num){
-                System.out.println("入力は 0~1000 の整数\n"); 
+                System.out.println("入力は 0~1000 の整数\n");
                 continue ;
             }
 
@@ -45,5 +45,5 @@ public class Main{
 //     javaディレクトリ内で　javac -classpath .:num2_ Main.java
 //     再度コンパイル時は    rm *class;cd num2_/;rm *class;cd ..;javac -classpath .:num2_ Main.java
 
-// 実行方法           
+// 実行方法
 //     java Main
