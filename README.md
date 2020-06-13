@@ -21,12 +21,9 @@
 ```
 
 ## LINEBot
-LINEBotになりました.
-
-ID: `@664dxnan`
-
-QR:
-
+LINEBotになりました.  
+ID: `@664dxnan`  
+QR:  
 <img src="https://github.com/Masaki-Okuyama/Mimori-Tool/blob/images/LINEQR.png" alt="drawing" width="200"/>
 
 ## C
