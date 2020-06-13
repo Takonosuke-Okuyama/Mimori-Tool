@@ -52,7 +52,7 @@ def makeMori(arg_num):
 
 
 def makeSuzuko(arg_num):
-	num = (arg_num % 46) + 9
+	num = (arg_num +9 ) % 46
 	suzuko = f'{hiraganaList[num] * 2}\u3099こ'
 
 	return suzuko
