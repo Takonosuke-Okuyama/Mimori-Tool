@@ -1,0 +1,5 @@
+FROM gcc:10.1.0
+COPY ./ /workdir
+WORKDIR /workdir
+RUN gcc mimori-tool2.c
+CMD ["./a.out"]
