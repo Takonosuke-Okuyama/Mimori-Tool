@@ -21,16 +21,21 @@
 ```
 
 ## LINEBot
-LINEBotになりました。  
+LINEBotになりました.  
 ID: `@664dxnan`  
 QR:  
-<img src="https://github.com/Masaki-Okuyama/Mimori-Tool/blob/images/LINEQR.png" alt="drawing" width="200"/>  
+<img src="https://github.com/Masaki-Okuyama/Mimori-Tool/blob/images/LINEQR.png" alt="drawing" width="200"/>
 
 ## C
 ### コンパイル
 cフォルダの`mimori-tool.c`か`mimori-tool2.c`をgccでコンパイルしてください.
 ### 無印と2の違い
-出力結果は同じですが、実装方法が違います。
+出力結果は同じですが, 実装方法が違います.
 
 ## Python
-`MimoriTool.cpython-37m-darwin.so`は三森すずこ生成ライブラリです。`main.py`で使用しています。
+`MimoriTool.cpython-37m-darwin.so`は三森すずこ生成ライブラリです. `main.py`で使用しています.
+## docker
+dockerイメージになりました.
+- c言語版: ```docker run -it --rm watanabesota/mimori-tool-c```
+- Python版: ```docker run -it --rm watanabesota/mimori-tool-python```
+- Java版: ```docker run -it --rm watanabesota/mimori-tool-java```
