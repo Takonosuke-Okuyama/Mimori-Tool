@@ -42,5 +42,3 @@ dockerイメージになりました.
 - c言語版: ```docker run -it --rm watanabesota/mimori-tool-c```
 - Python版: ```docker run -it --rm watanabesota/mimori-tool-python```
 - Java版: ```docker run -it --rm watanabesota/mimori-tool-java```
-
-[dockerfile](https://github.com/Masaki-Okuyama/Mimori-Tool/tree/dockerfile)
